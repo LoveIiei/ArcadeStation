@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>background.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Music\Menu.mp3" />
+    <None Remove="Resources\Thumbnails\gomoku_thumb.png" />
+    <None Remove="Resources\Thumbnails\tictactoe_thumb.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="background.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Music\Menu.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Reference Include="Gomoku">
+      <HintPath>..\Gomoku\bin\Release\net8.0-windows\Gomoku.dll</HintPath>
+    </Reference>
+    <Reference Include="tictactoe">
+      <HintPath>..\tictactoe\bin\Release\net8.0-windows\tictactoe.dll</HintPath>
+    </Reference>
+    <Resource Include="Resources\Thumbnails\gomoku_thumb.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Thumbnails\tictactoe_thumb.png" />
+  </ItemGroup>
+
+</Project>

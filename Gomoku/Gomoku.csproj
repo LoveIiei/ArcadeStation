@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\background.mp3" />
+    <None Remove="Resources\desk.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\background.mp3" />
+    <Resource Include="Resources\desk.png" />
+  </ItemGroup>
+
+</Project>

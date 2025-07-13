@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="tictactoe.TicTacToeView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tictactoe"
+        mc:Ignorable="d">
+    <Grid x:Name="GameGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <!-- Each cell has a Border to create the grid line -->
+        <Border Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+            <Button x:Name="_00" Content="" Click="Move_Click"/>
+        </Border>
+        <Border Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+            <Button x:Name="_01" Content="" Click="Move_Click"/>
+        </Border>
+        <Border Grid.Row="0" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+            <Button x:Name="_02" Content="" Click="Move_Click"/>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+            <Button x:Name="_10" Content="" Click="Move_Click"/>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+            <Button x:Name="_11" Content="" Click="Move_Click"/>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+            <Button x:Name="_12" Content="" Click="Move_Click"/>
+        </Border>
+        <Border Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="1">
+            <Button x:Name="_20" Content="" Click="Move_Click"/>
+        </Border>
+        <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="1">
+            <Button x:Name="_21" Content="" Click="Move_Click"/>
+        </Border>
+        <Border Grid.Row="2" Grid.Column="2" BorderBrush="Black" BorderThickness="1">
+            <Button x:Name="_22" Content="" Click="Move_Click"/>
+        </Border>
+    </Grid>
+</UserControl>
