@@ -1,6 +1,6 @@
 ﻿# Arcade Station
 
-![Screenshot of the game](ArcadeStation\Screenshots\arcadestation.png)
+![Screenshot of the game](Screenshots/arcadestation.png)
 
 > [!WARNING]
 > I do not own any of the music, so no re-distribution or sell on any of them
@@ -14,11 +14,11 @@
 *Traditional* Gomoku design meets C#, and that is lightning fast⚡  
 Special pick relaxing music to enjoy the win
 
-![Screenshot of the game](ArcadeStation\Screenshots\gomoku.png)
+![Screenshot of the game](Screenshots/gomoku.png)
 
 ## Tic-Tac-Toe
-A minimal designed Tic-Tac-Toe game in C#, _Simple but strong_
-![Screenshot of the game](ArcadeStation\Screenshots\tictactoe.png)
+A minimal designed Tic-Tac-Toe game in C#, _Simple but strong_  
+![Screenshot of the game](Screenshots/tictactoe.png)
 
 ## Idea
 *Enjoy the Childhood memory with friends again!*  
